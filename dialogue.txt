@@ -1,0 +1,21 @@
+Player Enters Trigger Zone
+	Player Presses Interact Button
+		Game Freezes
+		Static Text Appears
+			Player Presses Interact Button
+				Static Text 2 Appears
+					Player Presses Interact Button
+						Text Dissapears
+						Game Unfreezes
+
+--
+Is this how I need to structure this?
+https://answers.unrealengine.com/questions/343456/wait-for-key-press-then-go-to-bool.html?sort=oldest
+--
+
+raw idea
+
+every time enter action is detected in the sequence, iterate convostring array to the next value
+
+--
+
